@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.input, select{
+    width: 200px;
+}
+
+.todoContainer{
+    height: 90%;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputlist{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px, 20px;
+}
+
+.todoItemContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+input, select{
+    border: 1.2px solid black;
+    width: 15vw;
+    height: 3vh;
+}
+
+select{
+    height: 3.3vh;
+}
+
+.block1{
+   margin-top: 1%;
+}
+
+button{
+    width: 15vw;
+    height: 3.4vh;
+    background-color: black;
+    color: white;
+}
+ */
